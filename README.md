@@ -74,7 +74,7 @@ A collection of OSX/iOS security related resources
 ### [Google OSX hardening](https://www.usenix.org/conference/lisa13/os-x-hardening-securing-large-global-mac-fleet)
 * Google's system hardening guide
 
-### [Run any command in a sandbox](https://www.davd.eu/os-x-run-any-command-in-a-sandbox/)
+### [Run any command in a sandbox](https://www.davd.io/os-x-run-any-command-in-a-sandbox/)
 * How to for using OSX's sandbox system
 
 ### [Sandblaster](https://github.com/malus-security/sandblaster)
@@ -84,7 +84,7 @@ A collection of OSX/iOS security related resources
 ### [OSX El Capitan Hardening Guide](https://github.com/ernw/hardening/blob/master/operating_system/osx/10.11/ERNW_Hardening_OS_X_EL_Captain.md)
 * Hardening guide for El Capitan
 
-### [OSX application hardening scorecard](http://cyber-itl.org/blog-1/2016/9/12/a-closer-look-at-the-osx-continuum)
+### [OSX application hardening scorecard](https://cyber-itl.org/blog-1/2016/9/12/a-closer-look-at-the-osx-continuum)
 * Useful checklist for hardening systems
 
 ### [Hardening hardware and choosing a good BIOS](https://media.ccc.de/v/30C3_-_5529_-_en_-_saal_2_-_201312271830_-_hardening_hardware_and_choosing_a_goodbios_-_peter_stuge)
@@ -99,6 +99,11 @@ A collection of OSX/iOS security related resources
 ### [Contagio malware dump](http://contagiodump.blogspot.com/2013/11/osx-malware-and-exploit-collection-100.html)
 
 ## Digital Forensics / Incident Response (DFIR)
+### [venator](https://posts.specterops.io/introducing-venator-a-macos-tool-for-proactive-detection-34055a017e56)
+* Python tool for proactive detection tool for malware and trojans
+* [Source](https://github.com/richiercyrus/Venator)
+### [lynis](https://github.com/CISOfy/lynis/)
+* Security auditing tool for UNIX-based systems, including macOS
 ### [AutoMacTC](https://github.com/CrowdStrike/automactc)
 * [Modular forensic triage collection framework](https://www.crowdstrike.com/blog/automating-mac-forensic-triage/) from CrowdStrike 
 ### [Legacy Exec History](https://github.com/knightsc/system_policy)
@@ -218,9 +223,6 @@ A collection of OSX/iOS security related resources
 * [Apple's statement](https://support.apple.com/en-us/HT208394)
 * [Measuring OSX meltdown patches performance](https://reverse.put.as/2018/01/07/measuring-osx-meltdown-patches-performance/)
 * [iPhone performance after Spectre patch](https://www.gsmarena.com/spectre_and_meltdown_testing_performance_impact_on_iphone_8_plus-news-29132.php)
-### [Why gets your root](https://www.synack.com/2017/11/29/why-gets-you-root/)
-* An Apple update introduced a bug where a blank password was set for root,
-  allowing attackers to easily gain root access
 ### [Flashback](https://www.cnet.com/news/more-than-600000-macs-infected-with-flashback-botnet/)
 * [Detailed analysis](https://www.intego.com/mac-security-blog/more-about-the-flashback-trojan-horse/)
 ### [Flashback pt 2](https://www.intego.com/mac-security-blog/flashback-botnet-is-adrift/)
@@ -300,7 +302,6 @@ Google's Project Zero series of articles that detail vulnerabilities in the wire
 * Mac menubar item that lets you know about security events on your system
 ### [mac-a-mal](https://github.com/phdphuc/mac-a-mal)
 * Automated malware analysis on macOS
-* [Paper](https://www.blackhat.com/docs/asia-18/asia-18-Phuc-Mac-A-Mal-An%20Automated%20Framework%20for%20Mac%20Malware%20Hunting-wp.pdf)
 ### [jrswizzle](https://github.com/rentzsch/jrswizzle)
 * method interface exchange
 ### [MacDBG](https://github.com/blankwall/MacDBG)
@@ -333,7 +334,7 @@ Google's Project Zero series of articles that detail vulnerabilities in the wire
 * Wireless scanning and packet capturing
 ### [Passive fuzz framework](https://github.com/SilverMoonSecurity/PassiveFuzzFrameworkOSX)
 * Framework is for fuzzing OSX kernel vulnerability based on passive inline hook mechanism in kernel mode
-### [Platypus](http://sveinbjorn.org/platypus)
+### [Platypus](https://sveinbjorn.org/platypus)
 * GUI for generating .app bundles
 ### [createOSXinstallPkg](https://github.com/munki/createOSXinstallPkg)
 * CLI for generating .pkg installers
